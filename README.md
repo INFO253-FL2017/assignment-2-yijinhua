@@ -19,6 +19,7 @@ save that file in the i253 folder
  - ```bash Miniconda3-latest-Linux-x86.sh``` for 32 
 3. Be sure to type "yes" when asked this question;
  - Do you wish the installer to prepend the Miniconda3 install location to PATH in your /home/vagrant/.bashrc ? [yes|no]
+4. Close out of your vagrant box and enter it again
 
 Now you should be able to type python3 --version and it should specify that you are running python 3.6
 
@@ -31,7 +32,8 @@ Now you should be able to type python3 --version and it should specify that you 
         config.vm.network :forwarded_port, guest: i, host: i
     end
     ```
-3. Now ports 5000 through 5010 are availiable on your host computer by going to your browser and going to
+3. Run ```vagrant reload```
+4. Now ports 5000 through 5010 are availiable on your host computer by going to your browser and going to
 http://localhost:5000, http://localhost:5001, and so on to http://localhost:5010
 
 ### Clone your repo and run your server
