@@ -12,7 +12,7 @@ You will need to do the following:
 
 ### Install Python 3 to your vagrant box (if you haven't alreaady)
 
-1. Download miniconda for Linux. Download the right Linux installer (32 bit or 64 bit, depending on your system) and 
+1. Download [miniconda](https://conda.io/miniconda.html) for Linux. Download the right Linux installer (32 bit or 64 bit, depending on your system) and 
 save that file in the i253 folder
 2. Load up your vagrant box and run the 
  - ```bash Miniconda3-latest-Linux-x86_64.sh``` for 64 bit
