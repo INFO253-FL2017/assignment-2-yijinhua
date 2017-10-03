@@ -27,7 +27,7 @@ Now you should be able to type python3 --version and it should specify that you 
 
 1. Open the file "Vagrantfile" located in your i253 folder with a text editor
 2. At the second line from the end (before the word "end") add the following code:
- - ``` 
+   ``` 
     for i in 5000..5010
         config.vm.network :forwarded_port, guest: i, host: i
     end
@@ -86,10 +86,10 @@ is already included in this project. You are not allowed to find another module 
 password, nor recipient directly into the code. It is a security risk to check in passwords directly into code. You must use environment variables in order to achieve this result.
 
 Please use the following environment variables to retrieve from your server the followign information to send an email externally:
-INFO253_MAILGUN_USER -> your username ("api")
-INFO253_MAILGUN_PASSWORD -> your password (your api key)
-INFO253_MAILGUN_FROM_EMAIL -> the email where you are sending this email from. You can use the mailgun provided one, or any email you choose
-INFO253_MAILGUN_TO_EMAIL -> the email where you are sending this email to
+- INFO253_MAILGUN_USER -> your username ("api")
+- INFO253_MAILGUN_PASSWORD -> your password (your api key)
+- INFO253_MAILGUN_FROM_EMAIL -> the email where you are sending this email from. You can use the mailgun provided one, or any email you choose
+- INFO253_MAILGUN_TO_EMAIL -> the email where you are sending this email to
 
 Before you run your server to test, be sure to run the following commands to set your environment variables in your vagrant box:
 
