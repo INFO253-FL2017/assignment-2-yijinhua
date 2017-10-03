@@ -93,10 +93,10 @@ Please use the following environment variables to retrieve from your server the 
 
 Before you run your server to test, be sure to run the following commands to set your environment variables in your vagrant box:
 
-- export INFO253_MAILGUN_USER=api
-- export INFO253_MAILGUN_PASSWORD=*[your api key]*
-- export INFO253_MAILGUN_FROM_EMAIL=*[your from email address]*
-- export INFO253_MAILGUN_TO_EMAIL=*[the email address you are sending this email to]*
+- export INFO253_MAILGUN_USER="api"
+- export INFO253_MAILGUN_PASSWORD=*"[your api key]"*
+- export INFO253_MAILGUN_FROM_EMAIL=*"[your from email address]"*
+- export INFO253_MAILGUN_TO_EMAIL=*"[the email address you are sending this email to]"*
 
 Executing the above commands will ensure that these variables are avaiable to your flask application when it is loaded.
 
