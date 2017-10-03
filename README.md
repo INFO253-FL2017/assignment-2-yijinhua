@@ -98,7 +98,11 @@ Before you run your server to test, be sure to run the following commands to set
 - export INFO253_MAILGUN_FROM_EMAIL=*"[your from email address]"*
 - export INFO253_MAILGUN_TO_EMAIL=*"[the email address you are sending this email to]"*
 
-Executing the above commands will ensure that these variables are avaiable to your flask application when it is loaded.
+Executing the above commands will ensure that these variables are avaiable to your flask application when it is loaded. If you are curious if you did it right, run the following command:
+
+```echo $INFO253_MAILGUN_USER```
+
+To see if the INFO253_MAILGUN_USER environment variable was properly set
 
 ### Here are the requirements for the contact form:
 
