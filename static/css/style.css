@@ -1,3 +1,28 @@
-h1 {
-	color: blue;
+header {
+	text-align: left;
+	color: purple;
+	text-transform: uppercase;
 }
+
+footer {
+	text-align: left;
+	color: purple;
+	text-transform: uppercase;
+}
+
+h1 {
+    color: #B3D4FC; /* light blue */
+    text-align: center;
+}
+
+
+#contactH1 {
+	color: purple;
+	text-align: center;
+}
+
+.symbol{
+	background-color: yellow;
+}
+
+
